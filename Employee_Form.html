@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee_Form</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <style>
+        div{
+            margin: 10px 10px 10px 400px;
+            padding: 10px 10px 10px 10px;
+            border: solid black 1px;
+            background-color:beige;
+            width: 1000px;
+            line-height:2;
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <h1 align="center">Employee_Form</h1>
+    <form action="">
+    <label for="ename">Employee Name :</label>
+    <input type="text" id="ename" name="ename" placeholder="Firstname Middelname Lastname" style="width: 20%" required><br>
+    <label for="age">Age :</label>
+    <input type="number" id="age" name="age" placeholder="00" style="width: 50px" required><br>
+    <input type="radio" id="male" name="gender" value="male" required>
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female" required >
+    <label for="female">Female</label><br>
+    <label for="desig">Designation</label>
+    <input type="text" id="desig" name="desig" placeholder="Designation" required><br>
+    <label for="salary">Salary</label>
+    <input type="range" id="salary" min="10k" max="1000k" required><br>
+    <label for="loc">Location :</label>
+    <select name="location" id="loc" required>
+        <option value="ahmedabad">ahmedabad</option>
+        <option value="vadodara">vadodara</option>
+        <option value="rajkot">rajkot</option>
+        <option value="surat">surat</option>
+        <option value="junagadh">junagadh</option>
+        <option value="bhavnagar">bhavnagar</option>
+    </select><br>
+    <label for="email">E-mail :</label>
+    <input type="email" name="email" id="email" placeholder="abc@gmail.com" required><br>
+    <label for="doj">Date of Joining :</label>
+    <input type="date" name="doj" id="doj" value="date" required><br>
+    <label for="contact">Contact No. :</label>
+    <input type="text" id="contact" name="contact" placeholder="+91-0000000000" required><br>
+    <input type="submit" name="submit" value="submit" >
+    </form>
+    </div>
+</body>
+</html>
